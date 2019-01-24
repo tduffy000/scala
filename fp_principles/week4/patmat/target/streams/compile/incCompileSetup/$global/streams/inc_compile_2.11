@@ -1,0 +1,296 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/target/scala-2.11/classes
+compile options:
+1 items
+0 -> -deprecation
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.12
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+14 items
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> /Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/target/scala-2.11/classes/common/package$$anonfun$subFile$1.class
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> /Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/target/scala-2.11/classes/common/package$.class
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> /Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/target/scala-2.11/classes/common/package.class
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> /Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/target/scala-2.11/classes/patmat/Huffman$$anonfun$combine$1.class
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> /Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/target/scala-2.11/classes/patmat/Huffman$$anonfun$createCodeTree$1.class
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> /Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/target/scala-2.11/classes/patmat/Huffman$$anonfun$createCodeTree$2.class
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> /Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/target/scala-2.11/classes/patmat/Huffman$$anonfun$makeOrderedLeafList$1.class
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> /Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/target/scala-2.11/classes/patmat/Huffman$.class
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> /Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/target/scala-2.11/classes/patmat/Huffman$CodeTree.class
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> /Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/target/scala-2.11/classes/patmat/Huffman$Fork$.class
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> /Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/target/scala-2.11/classes/patmat/Huffman$Fork.class
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> /Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/target/scala-2.11/classes/patmat/Huffman$Leaf$.class
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> /Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/target/scala-2.11/classes/patmat/Huffman$Leaf.class
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> /Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/target/scala-2.11/classes/patmat/Huffman.class
+binary dependencies:
+4 items
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> /Users/byronthebulb/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> /Users/byronthebulb/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+14 items
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> common.package
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> common.package$
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> common.package$$anonfun$subFile$1
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> patmat.Huffman
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> patmat.Huffman$
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> patmat.Huffman$$anonfun$combine$1
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> patmat.Huffman$$anonfun$createCodeTree$1
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> patmat.Huffman$$anonfun$createCodeTree$2
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> patmat.Huffman$$anonfun$makeOrderedLeafList$1
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> patmat.Huffman$CodeTree
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> patmat.Huffman$Fork
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> patmat.Huffman$Fork$
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> patmat.Huffman$Leaf
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> patmat.Huffman$Leaf$
+used names:
+171 items
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> ::
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> <init>
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> <repeated>
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> ?0
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> A
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> Any
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> AnyRef
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> B
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> Boolean
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> Class
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> File
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> FileInputStream
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> Function2
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> InputStream
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> List
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> None
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> Nothing
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> Object
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> Option
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> Predef
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> Some
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> String
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> URI
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> URL
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> _root_
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> child
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> children
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> classesDir
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> common
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> exists
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> file
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> foldLeft
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> getClass
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> getParentFile
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> getResource
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> io
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> java
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> package
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> projectDir
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> resourceFile
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> resourcePath
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> scala
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> subFile
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> toURI
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> &&
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> +
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> :+
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> ::
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> :::
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> <
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> <init>
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> <repeated>
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> ==
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> A
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> A1
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> AbstractFunction2
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> AbstractFunction4
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> Any
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> AnyRef
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> B
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> Bit
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> Boolean
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> CanBuildFrom
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> Char
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> CodeTable
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> CodeTree
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> Coll
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> Fork
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> Function1
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> Function2
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> Huffman
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> IndexOutOfBoundsException
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> Int
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> Iterator
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> Leaf
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> List
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> MatchError
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> Nil
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> None
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> Nothing
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> Object
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> Predef
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> Product
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> ScalaRunTime
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> Serializable
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> Some
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> Statics
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> String
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> StringOps
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> T
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> T0
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> T1
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> T2
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> T3
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> T4
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> That
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> Tuple2
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> Tuple4
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> _1
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> _2
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> _root_
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> _toString
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> anyHash
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> apply
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> asInstanceOf
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> augmentString
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> bits
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> branch
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> canBuildFrom
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> ch
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> char
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> chars
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> codeBits
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> combine
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> common
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> contains
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> convert
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> convertHelper
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> countAcc
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> counter
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> decode
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> decodeHelper
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> encode
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> encodeHelper
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> eq
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> finalizeHash
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> frenchCode
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> freqs
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> head
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> immutable
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> isEmpty
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> isInstanceOf
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> join
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> joined
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> l
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> left
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> length
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> makeList
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> makeOrderedLeafList
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> mix
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> ne
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> node1
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> node2
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> num
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> package
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> patmat
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> quickEncodeHelper
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> r
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> right
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> runtime
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> scala
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> secret
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> singleton
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> sortWith
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> str
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> table
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> tail
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> test
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> text
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> times
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> toInt
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> toList
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> toString
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> tree
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> trees
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> typedProductIterator
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> until
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> weight
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> x
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> y
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> ||
+product stamps:
+14 items
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/target/scala-2.11/classes/common/package$$anonfun$subFile$1.class -> lastModified(1547238082000)
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/target/scala-2.11/classes/common/package$.class -> lastModified(1547238082000)
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/target/scala-2.11/classes/common/package.class -> lastModified(1547238082000)
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/target/scala-2.11/classes/patmat/Huffman$$anonfun$combine$1.class -> lastModified(1547245007000)
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/target/scala-2.11/classes/patmat/Huffman$$anonfun$createCodeTree$1.class -> lastModified(1547245007000)
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/target/scala-2.11/classes/patmat/Huffman$$anonfun$createCodeTree$2.class -> lastModified(1547245007000)
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/target/scala-2.11/classes/patmat/Huffman$$anonfun$makeOrderedLeafList$1.class -> lastModified(1547245007000)
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/target/scala-2.11/classes/patmat/Huffman$.class -> lastModified(1547245007000)
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/target/scala-2.11/classes/patmat/Huffman$CodeTree.class -> lastModified(1547245007000)
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/target/scala-2.11/classes/patmat/Huffman$Fork$.class -> lastModified(1547245007000)
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/target/scala-2.11/classes/patmat/Huffman$Fork.class -> lastModified(1547245007000)
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/target/scala-2.11/classes/patmat/Huffman$Leaf$.class -> lastModified(1547245007000)
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/target/scala-2.11/classes/patmat/Huffman$Leaf.class -> lastModified(1547245007000)
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/target/scala-2.11/classes/patmat/Huffman.class -> lastModified(1547245007000)
+source stamps:
+2 items
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> hash(885b8f12a5b2a83dad658f76cc1fdd678a38d4a8)
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> hash(4ea21017b72befe493e78621b913b470c99c0cfb)
+binary stamps:
+2 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1489567893000)
+/Users/byronthebulb/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar -> lastModified(1509673049000)
+class names:
+2 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
+/Users/byronthebulb/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar -> scala.runtime.AbstractFunction4
+internal apis:
+2 items
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwB2GhlgABc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAYc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwyb4xfHQABm5vdGlmeXNxAH4ADLd7app0AAdwYWNrYWdlc3EAfgAMJhK6tnQABHdhaXRzcQB+AAzx5+qMdAANJGFzSW5zdGFuY2VPZnNxAH4ADM2K/A90AAZlcXVhbHNzcQB+AAzxbFRpdAAMYXNJbnN0YW5jZU9mc3EAfgAMzsiFSnQADHN5bmNocm9uaXplZHNxAH4ADFjDlPV0AA0kaXNJbnN0YW5jZU9mc3EAfgAMqj2IS3QAF3Jlc291cmNlQXNTdHJlYW1Gcm9tU3Jjc3EAfgAMg3y8U3QACW5vdGlmeUFsbHNxAH4ADCYkqcp0AAxpc0luc3RhbmNlT2ZzcQB+AAxpxNpvdAADPz8/c3EAfgAMmnpgkXQAAj09c3EAfgAM8o3wU3QABWNsb25lc3EAfgAMZ0zWI3QAB3N1YkZpbGVzcQB+AAwkK+HodAAIdG9TdHJpbmdzcQB+AAw/usRqdAACIT1zcQB+AAwIl7qqdAAIZ2V0Q2xhc3NzcQB+AAwIKkOTdAACbmVzcQB+AAwadAmLdAACZXFzcQB+AAyTEjXPdAACIyNzcQB+AAyNdORTdAAIZmluYWxpemVzcQB+AAxU1D+IdAAIaGFzaENvZGVzcQB+AAx7bUT0dAADKioqc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AR3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQADmNvbW1vbi5wYWNrYWdldXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBfc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEdMAAlpbmhlcml0ZWRxAH4AR0wAB3BhcmVudHNxAH4AR3hxAH4AZHNxAH4AX3VxAH4AQgAAAABzcQB+AF91cQB+AEIAAAAAc3EAfgBfdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBjdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBjc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgB8dAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB9c3EAfgBwdAADQW55c3EAfgB0c3EAfgB3dXEAfgB6AAAAAnNxAH4AfHQABXNjYWxhcQB+AIN1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAZjb21tb25zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAWg+k1fldXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAWC9Vc2Vycy9ieXJvbnRoZWJ1bGIvRGlyZWN0b3J5L3NjYWxhL2ZwX3ByaW5jaXBsZXMvd2VlazQvcGF0bWF0L3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABSIW48SpbKoPa1lj3bMH91nijjUqA==
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwr7rzEQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAA+c3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwEGpG5nQABm5vdGlmeXNxAH4ADOPjQIN0AAxtYWtlQ29kZVRyZWVzcQB+AAww19/AdAAGc2VjcmV0c3EAfgAM+eYOCXQAB3VuYXBwbHlzcQB+AAymkAlEdAAGZW5jb2Rlc3EAfgAMYbD+jXQABndlaWdodHNxAH4ADHtAd9p0AAdjdXJyaWVkc3EAfgAM2fgDJnQABHdhaXRzcQB+AAw/TF2FdAAOY29weSRkZWZhdWx0JDJzcQB+AAyfMkQ+dAANJGFzSW5zdGFuY2VPZnNxAH4ADKFPmqN0AAxwcm9kdWN0QXJpdHlzcQB+AAytikLFdAAGZXF1YWxzc3EAfgAMU0v47nQAC3F1aWNrRW5jb2Rlc3EAfgAMZyVeY3QADGFzSW5zdGFuY2VPZnNxAH4ADJnCMkl0AAxzeW5jaHJvbml6ZWRzcQB+AAwzgt2YdAAEbGVmdHNxAH4ADC8/JqF0AA0kaXNJbnN0YW5jZU9mc3EAfgAM5G1jmHQABnR1cGxlZHNxAH4ADCLp1Md0AAdIdWZmbWFuc3EAfgAMrzPg1XQACGNhbkVxdWFsc3EAfgAM3LgqmXQADmNvcHkkZGVmYXVsdCQ0c3EAfgAM6aMAh3QABGNoYXJzcQB+AAy4FAb8dAAGZGVjb2Rlc3EAfgAMkvT5NHQABExlYWZzcQB+AAzUn/iQdAAIY29kZUJpdHNzcQB+AAwEhdRkdAANcHJvZHVjdFByZWZpeHNxAH4ADIFk8MZ0AAV1bnRpbHNxAH4ADNaygLF0AApmcmVuY2hDb2Rlc3EAfgAM9BfrKXQACW5vdGlmeUFsbHNxAH4ADOrGGQ50AAVjaGFyc3NxAH4ADArqKv90AAxpc0luc3RhbmNlT2ZzcQB+AAw0cbMjdAAGPGluaXQ+c3EAfgAM2+5dGXQABWFwcGx5c3EAfgAM/kzrr3QADWRlY29kZWRTZWNyZXRzcQB+AAwk6L+cdAACPT1zcQB+AAwS9KK9dAAFY2xvbmVzcQB+AAwIKvVAdAAFdGltZXNzcQB+AAxLz2fmdAAGJGluaXQkc3EAfgAM82j6MnQAB2NvbWJpbmVzcQB+AAyaJm6edAAOY29weSRkZWZhdWx0JDNzcQB+AAy+Po9ydAAEY29weXNxAH4ADF/cRMh0AAxzdHJpbmcyQ2hhcnNzcQB+AAzUYODqdAAIdG9TdHJpbmdzcQB+AAyOhw/ndAAJc2luZ2xldG9uc3EAfgAM2oteLXQAAiE9c3EAfgAMoi1lqnQACGdldENsYXNzc3EAfgAMGgvawXQACUNvZGVUYWJsZXNxAH4ADEdg+N90AA5jcmVhdGVDb2RlVHJlZXNxAH4ADEXyQTZ0AA5jb3B5JGRlZmF1bHQkMXNxAH4ADJJNcjp0AARGb3Jrc3EAfgAMJcagknQAA0JpdHNxAH4ADLKQ9W90AAJuZXNxAH4ADEPAr8h0ABNtYWtlT3JkZXJlZExlYWZMaXN0c3EAfgAM4KmO8XQACENvZGVUcmVlc3EAfgAMx3RtkXQAAmVxc3EAfgAMh3kEqHQAB2NvbnZlcnRzcQB+AAxeHu7VdAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgAMGa0uBnQABXJpZ2h0c3EAfgAMIaZaiHQAAiMjc3EAfgAMMzCdF3QACGZpbmFsaXplc3EAfgAMVSXXHnQADnByb2R1Y3RFbGVtZW50c3EAfgAM0cBPvXQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4Ak3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQADnBhdG1hdC5IdWZmbWFudXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgCrc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AJNMAAlpbmhlcml0ZWRxAH4Ak0wAB3BhcmVudHNxAH4Ak3hxAH4AsHNxAH4Aq3VxAH4AjgAAAABzcQB+AKt1cQB+AI4AAAAAc3EAfgCrdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgCvdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgCvc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgDIdAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgDJc3EAfgC8dAADQW55c3EAfgDAc3EAfgDDdXEAfgDGAAAAAnNxAH4AyHQABXNjYWxhcQB+AM91cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAZwYXRtYXRzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAWg+/QQ0dXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAWC9Vc2Vycy9ieXJvbnRoZWJ1bGIvRGlyZWN0b3J5L3NjYWxhL2ZwX3ByaW5jaXBsZXMvd2VlazQvcGF0bWF0L3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABROohAXtyvv5JPnhiG5E7RwyZwM+w==
+external apis:
+0 items
+source infos:
+2 items
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/common/package.scala -> 
+AAAAAAAAAAA=
+/Users/byronthebulb/Directory/scala/fp_principles/week4/patmat/src/main/scala/patmat/Huffman.scala -> 
+AAAAAAAAAAA=
+compilations:
+4 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABaD6TV+V1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAWC9Vc2Vycy9ieXJvbnRoZWJ1bGIvRGlyZWN0b3J5L3NjYWxhL2ZwX3ByaW5jaXBsZXMvd2VlazQvcGF0bWF0L3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABaD6x1IB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAWC9Vc2Vycy9ieXJvbnRoZWJ1bGIvRGlyZWN0b3J5L3NjYWxhL2ZwX3ByaW5jaXBsZXMvd2VlazQvcGF0bWF0L3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABaD77U7F1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAWC9Vc2Vycy9ieXJvbnRoZWJ1bGIvRGlyZWN0b3J5L3NjYWxhL2ZwX3ByaW5jaXBsZXMvd2VlazQvcGF0bWF0L3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+3 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABaD79BDR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAWC9Vc2Vycy9ieXJvbnRoZWJ1bGIvRGlyZWN0b3J5L3NjYWxhL2ZwX3ByaW5jaXBsZXMvd2VlazQvcGF0bWF0L3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
