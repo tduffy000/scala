@@ -1,0 +1,8 @@
+[0m[[0minfo[0m] [0m+ Heap.gen1: OK, passed 100 tests.[0m
+[0m[[0minfo[0m] [0m+ Heap.min1: OK, passed 100 tests.[0m
+[0m[[0minfo[0m] [0m+ Heap.insert 2 elements to empty, min is returned: OK, passed 100 tests.[0m
+[0m[[0minfo[0m] [0m! Heap.delMin on 1-element yields empty: Falsified after 0 passed tests.[0m
+[0m[[0minfo[0m] [0m> ARG_0: -2147483648[0m
+[0m[[0minfo[0m] [0m+ Heap.repeated delMin yields sorted sequence: OK, passed 100 tests.[0m
+[0m[[0minfo[0m] [0m+ Heap.repeated delMin on melded yields sorted sequence: OK, passed 100 tests.[0m
+[0m[[0minfo[0m] [0m+ Heap.melding yields min of two prior to melding: OK, passed 100 tests.[0m

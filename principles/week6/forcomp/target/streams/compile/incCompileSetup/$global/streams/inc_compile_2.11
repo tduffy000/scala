@@ -1,0 +1,340 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/tommy/Dir/scala/week6/forcomp/target/scala-2.11/classes
+compile options:
+1 items
+0 -> -deprecation
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.12
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+20 items
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> /home/tommy/Dir/scala/week6/forcomp/target/scala-2.11/classes/common/package$$anonfun$subFile$1.class
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> /home/tommy/Dir/scala/week6/forcomp/target/scala-2.11/classes/common/package$.class
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> /home/tommy/Dir/scala/week6/forcomp/target/scala-2.11/classes/common/package.class
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> /home/tommy/Dir/scala/week6/forcomp/target/scala-2.11/classes/forcomp/Anagrams$$anonfun$1.class
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> /home/tommy/Dir/scala/week6/forcomp/target/scala-2.11/classes/forcomp/Anagrams$$anonfun$2.class
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> /home/tommy/Dir/scala/week6/forcomp/target/scala-2.11/classes/forcomp/Anagrams$$anonfun$3.class
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> /home/tommy/Dir/scala/week6/forcomp/target/scala-2.11/classes/forcomp/Anagrams$$anonfun$4.class
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> /home/tommy/Dir/scala/week6/forcomp/target/scala-2.11/classes/forcomp/Anagrams$$anonfun$5$$anonfun$apply$1$$anonfun$6.class
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> /home/tommy/Dir/scala/week6/forcomp/target/scala-2.11/classes/forcomp/Anagrams$$anonfun$5$$anonfun$apply$1.class
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> /home/tommy/Dir/scala/week6/forcomp/target/scala-2.11/classes/forcomp/Anagrams$$anonfun$5.class
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> /home/tommy/Dir/scala/week6/forcomp/target/scala-2.11/classes/forcomp/Anagrams$$anonfun$combinations$1.class
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> /home/tommy/Dir/scala/week6/forcomp/target/scala-2.11/classes/forcomp/Anagrams$$anonfun$dictionaryByOccurrences$1.class
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> /home/tommy/Dir/scala/week6/forcomp/target/scala-2.11/classes/forcomp/Anagrams$$anonfun$occurRm$1.class
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> /home/tommy/Dir/scala/week6/forcomp/target/scala-2.11/classes/forcomp/Anagrams$$anonfun$wordOccurrences$1.class
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> /home/tommy/Dir/scala/week6/forcomp/target/scala-2.11/classes/forcomp/Anagrams$.class
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> /home/tommy/Dir/scala/week6/forcomp/target/scala-2.11/classes/forcomp/Anagrams.class
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> /home/tommy/Dir/scala/week6/forcomp/target/scala-2.11/classes/forcomp/package$$anonfun$1.class
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> /home/tommy/Dir/scala/week6/forcomp/target/scala-2.11/classes/forcomp/package$$anonfun$2.class
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> /home/tommy/Dir/scala/week6/forcomp/target/scala-2.11/classes/forcomp/package$.class
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> /home/tommy/Dir/scala/week6/forcomp/target/scala-2.11/classes/forcomp/package.class
+binary dependencies:
+6 items
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> /home/tommy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> /home/tommy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> /home/tommy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+2 items
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> /home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> /home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+20 items
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> common.package
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> common.package$
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> common.package$$anonfun$subFile$1
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> forcomp.Anagrams
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> forcomp.Anagrams$
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> forcomp.Anagrams$$anonfun$1
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> forcomp.Anagrams$$anonfun$2
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> forcomp.Anagrams$$anonfun$3
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> forcomp.Anagrams$$anonfun$4
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> forcomp.Anagrams$$anonfun$5
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> forcomp.Anagrams$$anonfun$5$$anonfun$apply$1
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> forcomp.Anagrams$$anonfun$5$$anonfun$apply$1$$anonfun$6
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> forcomp.Anagrams$$anonfun$combinations$1
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> forcomp.Anagrams$$anonfun$dictionaryByOccurrences$1
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> forcomp.Anagrams$$anonfun$occurRm$1
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> forcomp.Anagrams$$anonfun$wordOccurrences$1
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> forcomp.package
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> forcomp.package$
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> forcomp.package$$anonfun$1
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> forcomp.package$$anonfun$2
+used names:
+191 items
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> ::
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> <init>
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> <repeated>
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> ?0
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> A
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> Any
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> AnyRef
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> B
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> Boolean
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> Class
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> File
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> FileInputStream
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> Function2
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> InputStream
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> List
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> None
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> Nothing
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> Object
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> Option
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> Predef
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> Some
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> String
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> URI
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> URL
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> _root_
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> child
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> children
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> classesDir
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> common
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> exists
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> file
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> foldLeft
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> getClass
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> getParentFile
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> getResource
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> io
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> java
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> package
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> projectDir
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> resourceFile
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> resourcePath
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> scala
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> subFile
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> toURI
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> $conforms
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> -
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> ::
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> <:<
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> <init>
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> <repeated>
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> ==
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> >
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> A
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> Anagrams
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> Any
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> AnyRef
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> B
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> Boolean
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> CanBuildFrom
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> Char
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> Coll
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> FilterMonadic
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> Function1
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> GenTraversableOnce
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> Int
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> K
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> List
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> Map
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> MatchError
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> Nil
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> None
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> Nothing
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> Object
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> Occurrences
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> Option
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> Ordering
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> Predef
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> RichChar
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> Sentence
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> Some
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> String
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> StringOps
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> T0
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> T1
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> T2
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> That
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> Tuple2
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> Word
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> _1
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> _2
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> anag
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> apply
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> asInstanceOf
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> augmentString
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> canBuildFrom
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> ch
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> charWrapper
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> combinations
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> count
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> dictionary
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> dictionaryByOccurrences
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> distinct
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> filter
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> flatten
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> forcomp
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> get
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> getAnagrams
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> groupBy
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> groups
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> head
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> immutable
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> isInstanceOf
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> length
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> letter
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> loadDictionary
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> m
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> map
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> math
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> mkString
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> ne
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> occ
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> occWords
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> occs
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> occurRm
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> occurrences
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> package
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> res
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> s
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> scala
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> sentence
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> sentenceOccurrences
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> sorted
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> subtract
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> test
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> toList
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> toLower
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> unchecked
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> w
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> withFilter
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> word
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> wordOccurrences
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> x
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> y
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> +
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> <byname>
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> <init>
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> <repeated>
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> ?0
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> A
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> Any
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> AnyRef
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> B
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> BufferedSource
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> Class
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> Codec
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> Exception
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> InputStream
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> Iterator
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> List
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> Nothing
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> Object
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> Option
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> Predef
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> Source
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> String
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> Unit
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> apply
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> close
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> common
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> dictionaryPath
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> e
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> error
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> fallbackSystemCodec
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> forcomp
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> fromInputStream
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> getClass
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> getLines
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> getOrElse
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> getResourceAsStream
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> immutable
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> io
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> mkString
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> orElse
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> package
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> println
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> resourceAsStreamFromSrc
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> s
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> scala
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> sys
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> toList
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> wordstream
+product stamps:
+20 items
+/home/tommy/Dir/scala/week6/forcomp/target/scala-2.11/classes/common/package$$anonfun$subFile$1.class -> lastModified(1547668250000)
+/home/tommy/Dir/scala/week6/forcomp/target/scala-2.11/classes/common/package$.class -> lastModified(1547668250000)
+/home/tommy/Dir/scala/week6/forcomp/target/scala-2.11/classes/common/package.class -> lastModified(1547668250000)
+/home/tommy/Dir/scala/week6/forcomp/target/scala-2.11/classes/forcomp/Anagrams$$anonfun$1.class -> lastModified(1547668250000)
+/home/tommy/Dir/scala/week6/forcomp/target/scala-2.11/classes/forcomp/Anagrams$$anonfun$2.class -> lastModified(1547668250000)
+/home/tommy/Dir/scala/week6/forcomp/target/scala-2.11/classes/forcomp/Anagrams$$anonfun$3.class -> lastModified(1547668250000)
+/home/tommy/Dir/scala/week6/forcomp/target/scala-2.11/classes/forcomp/Anagrams$$anonfun$4.class -> lastModified(1547668250000)
+/home/tommy/Dir/scala/week6/forcomp/target/scala-2.11/classes/forcomp/Anagrams$$anonfun$5$$anonfun$apply$1$$anonfun$6.class -> lastModified(1547668250000)
+/home/tommy/Dir/scala/week6/forcomp/target/scala-2.11/classes/forcomp/Anagrams$$anonfun$5$$anonfun$apply$1.class -> lastModified(1547668250000)
+/home/tommy/Dir/scala/week6/forcomp/target/scala-2.11/classes/forcomp/Anagrams$$anonfun$5.class -> lastModified(1547668250000)
+/home/tommy/Dir/scala/week6/forcomp/target/scala-2.11/classes/forcomp/Anagrams$$anonfun$combinations$1.class -> lastModified(1547668250000)
+/home/tommy/Dir/scala/week6/forcomp/target/scala-2.11/classes/forcomp/Anagrams$$anonfun$dictionaryByOccurrences$1.class -> lastModified(1547668250000)
+/home/tommy/Dir/scala/week6/forcomp/target/scala-2.11/classes/forcomp/Anagrams$$anonfun$occurRm$1.class -> lastModified(1547668250000)
+/home/tommy/Dir/scala/week6/forcomp/target/scala-2.11/classes/forcomp/Anagrams$$anonfun$wordOccurrences$1.class -> lastModified(1547668250000)
+/home/tommy/Dir/scala/week6/forcomp/target/scala-2.11/classes/forcomp/Anagrams$.class -> lastModified(1547668250000)
+/home/tommy/Dir/scala/week6/forcomp/target/scala-2.11/classes/forcomp/Anagrams.class -> lastModified(1547668250000)
+/home/tommy/Dir/scala/week6/forcomp/target/scala-2.11/classes/forcomp/package$$anonfun$1.class -> lastModified(1547668250000)
+/home/tommy/Dir/scala/week6/forcomp/target/scala-2.11/classes/forcomp/package$$anonfun$2.class -> lastModified(1547668250000)
+/home/tommy/Dir/scala/week6/forcomp/target/scala-2.11/classes/forcomp/package$.class -> lastModified(1547668250000)
+/home/tommy/Dir/scala/week6/forcomp/target/scala-2.11/classes/forcomp/package.class -> lastModified(1547668250000)
+source stamps:
+3 items
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> hash(885b8f12a5b2a83dad658f76cc1fdd678a38d4a8)
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> hash(95ea5457f786d67f688f079c066c484bc795750d)
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> hash(77c0a618470b8baef7ad6c4ec5791b3e05901b88)
+binary stamps:
+2 items
+/home/tommy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar -> lastModified(1509673049000)
+/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar -> lastModified(1542729000000)
+class names:
+2 items
+/home/tommy/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar -> scala.io.BufferedSource
+/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+3 items
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwB2GhlgABc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAYc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwyb4xfHQABm5vdGlmeXNxAH4ADLd7app0AAdwYWNrYWdlc3EAfgAMJhK6tnQABHdhaXRzcQB+AAzx5+qMdAANJGFzSW5zdGFuY2VPZnNxAH4ADM2K/A90AAZlcXVhbHNzcQB+AAzxbFRpdAAMYXNJbnN0YW5jZU9mc3EAfgAMzsiFSnQADHN5bmNocm9uaXplZHNxAH4ADFjDlPV0AA0kaXNJbnN0YW5jZU9mc3EAfgAMqj2IS3QAF3Jlc291cmNlQXNTdHJlYW1Gcm9tU3Jjc3EAfgAMg3y8U3QACW5vdGlmeUFsbHNxAH4ADCYkqcp0AAxpc0luc3RhbmNlT2ZzcQB+AAxpxNpvdAADPz8/c3EAfgAMmnpgkXQAAj09c3EAfgAM8o3wU3QABWNsb25lc3EAfgAMZ0zWI3QAB3N1YkZpbGVzcQB+AAwkK+HodAAIdG9TdHJpbmdzcQB+AAw/usRqdAACIT1zcQB+AAwIl7qqdAAIZ2V0Q2xhc3NzcQB+AAwIKkOTdAACbmVzcQB+AAwadAmLdAACZXFzcQB+AAyTEjXPdAACIyNzcQB+AAyNdORTdAAIZmluYWxpemVzcQB+AAxU1D+IdAAIaGFzaENvZGVzcQB+AAx7bUT0dAADKioqc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AR3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQADmNvbW1vbi5wYWNrYWdldXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBfc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEdMAAlpbmhlcml0ZWRxAH4AR0wAB3BhcmVudHNxAH4AR3hxAH4AZHNxAH4AX3VxAH4AQgAAAABzcQB+AF91cQB+AEIAAAAAc3EAfgBfdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBjdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBjc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgB8dAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB9c3EAfgBwdAADQW55c3EAfgB0c3EAfgB3dXEAfgB6AAAAAnNxAH4AfHQABXNjYWxhcQB+AIN1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAZjb21tb25zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAWhYN0qBdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAPS9ob21lL3RvbW15L0Rpci9zY2FsYS93ZWVrNi9mb3Jjb21wL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABSIW48SpbKoPa1lj3bMH91nijjUqA==
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwE7iU0QAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAhc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwm8f77HQABm5vdGlmeXNxAH4ADNiUxFJ0AAR3YWl0c3EAfgAMht7UM3QADSRhc0luc3RhbmNlT2ZzcQB+AAxzuWkTdAAHb2NjdXJSbXNxAH4ADBhs8010AAhzdWJ0cmFjdHNxAH4ADLnnh/h0AAZlcXVhbHNzcQB+AAw0gm2rdAAIb2NjV29yZHNzcQB+AAwQqJLQdAAKZGljdGlvbmFyeXNxAH4ADOYvKDJ0AAxhc0luc3RhbmNlT2ZzcQB+AAwk9haydAAPd29yZE9jY3VycmVuY2Vzc3EAfgAMyr6SB3QADHN5bmNocm9uaXplZHNxAH4ADPZPBLt0AA0kaXNJbnN0YW5jZU9mc3EAfgAM4VLytHQAEHNlbnRlbmNlQW5hZ3JhbXNzcQB+AAyTSA3zdAAMd29yZEFuYWdyYW1zc3EAfgAM4XX8I3QACW5vdGlmeUFsbHNxAH4ADC9uSMN0AAxpc0luc3RhbmNlT2ZzcQB+AAyfXZg0dAAMY29tYmluYXRpb25zc3EAfgAMjfQfN3QAC09jY3VycmVuY2Vzc3EAfgAMqt3JQnQAAj09c3EAfgAMd61m7HQABWNsb25lc3EAfgAMLcbN0XQAF2RpY3Rpb25hcnlCeU9jY3VycmVuY2Vzc3EAfgAMbX6JdHQACHRvU3RyaW5nc3EAfgAMuadwKXQAAiE9c3EAfgAM7DoGpXQAE3NlbnRlbmNlT2NjdXJyZW5jZXNzcQB+AAwlcZiOdAAIZ2V0Q2xhc3NzcQB+AAyqKMcRdAACbmVzcQB+AAwO5O2odAAIQW5hZ3JhbXNzcQB+AAw7KkDQdAACZXFzcQB+AAwCYCfWdAAIU2VudGVuY2VzcQB+AAz7uMDPdAAEV29yZHNxAH4ADGSo/o50AAIjI3NxAH4ADHCUonN0AAhmaW5hbGl6ZXNxAH4ADO9tmaV0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AFl4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ABBmb3Jjb21wLkFuYWdyYW1zdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBxc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AFlMAAlpbmhlcml0ZWRxAH4AWUwAB3BhcmVudHNxAH4AWXhxAH4AdnNxAH4AcXVxAH4AVAAAAABzcQB+AHF1cQB+AFQAAAAAc3EAfgBxdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgB1dAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgB1c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgCOdAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCPc3EAfgCCdAADQW55c3EAfgCGc3EAfgCJdXEAfgCMAAAAAnNxAH4AjnQABXNjYWxhcQB+AJV1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAdmb3Jjb21wc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFoWDdKgXVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AD0vaG9tZS90b21teS9EaXIvc2NhbGEvd2VlazYvZm9yY29tcC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUlepUV/eG1n9ojwecBmxIS8eVdQ0=
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwr29SrwABc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAWc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hw1vPSlnQABm5vdGlmeXNxAH4ADKof6dt0AAdwYWNrYWdlc3EAfgAMCX53LHQABHdhaXRzcQB+AAwtz9itdAANJGFzSW5zdGFuY2VPZnNxAH4ADJnhQw10AAZlcXVhbHNzcQB+AAy07NYqdAAMYXNJbnN0YW5jZU9mc3EAfgAMDhnxjnQADHN5bmNocm9uaXplZHNxAH4ADDkwLj90AA0kaXNJbnN0YW5jZU9mc3EAfgAMzxk3nnQACW5vdGlmeUFsbHNxAH4ADEXbkS10AAxpc0luc3RhbmNlT2ZzcQB+AAyoNYyYdAAObG9hZERpY3Rpb25hcnlzcQB+AAxpHALmdAACPT1zcQB+AAx45NzidAAFY2xvbmVzcQB+AAx7CuWGdAAIdG9TdHJpbmdzcQB+AAwYEJOedAACIT1zcQB+AAzL7+T+dAAIZ2V0Q2xhc3NzcQB+AAxCp2+9dAACbmVzcQB+AAz48sczdAAOZGljdGlvbmFyeVBhdGhzcQB+AAzPlneHdAACZXFzcQB+AAxJx/PkdAACIyNzcQB+AAxQn5IwdAAIZmluYWxpemVzcQB+AAwl3sP5dAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBDeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAAPZm9yY29tcC5wYWNrYWdldXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBbc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AENMAAlpbmhlcml0ZWRxAH4AQ0wAB3BhcmVudHNxAH4AQ3hxAH4AYHNxAH4AW3VxAH4APgAAAABzcQB+AFt1cQB+AD4AAAAAc3EAfgBbdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBfdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBfc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgB4dAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB5c3EAfgBsdAADQW55c3EAfgBwc3EAfgBzdXEAfgB2AAAAAnNxAH4AeHQABXNjYWxhcQB+AH91cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAdmb3Jjb21wc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFoWDdKgXVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AD0vaG9tZS90b21teS9EaXIvc2NhbGEvd2VlazYvZm9yY29tcC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUd8CmGEcLi673rWxOxXkbPgWQG4g=
+external apis:
+0 items
+source infos:
+3 items
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/common/package.scala -> 
+AAAAAAAAAAA=
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/Anagrams.scala -> 
+AAAAAAAAAAA=
+/home/tommy/Dir/scala/week6/forcomp/src/main/scala/forcomp/package.scala -> 
+AAAAAAAAAAA=
+compilations:
+1 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABaFg3SoF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL3RvbW15L0Rpci9zY2FsYS93ZWVrNi9mb3Jjb21wL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
