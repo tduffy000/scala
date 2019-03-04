@@ -1,0 +1,394 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/thomas/Dir/scala/data/week4/timeusage/target/scala-2.11/classes
+compile options:
+1 items
+0 -> -deprecation
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.12
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+20 items
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> /home/thomas/Dir/scala/data/week4/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$$anonfun$1.class
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> /home/thomas/Dir/scala/data/week4/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$$anonfun$2.class
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> /home/thomas/Dir/scala/data/week4/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$$anonfun$3.class
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> /home/thomas/Dir/scala/data/week4/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$$anonfun$4.class
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> /home/thomas/Dir/scala/data/week4/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$$anonfun$5.class
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> /home/thomas/Dir/scala/data/week4/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$$anonfun$6.class
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> /home/thomas/Dir/scala/data/week4/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$$anonfun$7.class
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> /home/thomas/Dir/scala/data/week4/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$$anonfun$classifiedColumns$1.class
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> /home/thomas/Dir/scala/data/week4/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$$anonfun$classifiedColumns$2.class
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> /home/thomas/Dir/scala/data/week4/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$$anonfun$classifiedColumns$3.class
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> /home/thomas/Dir/scala/data/week4/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$$anonfun$classifiedColumns$4.class
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> /home/thomas/Dir/scala/data/week4/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$$anonfun$classifiedColumns$5.class
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> /home/thomas/Dir/scala/data/week4/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$$anonfun$classifiedColumns$6.class
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> /home/thomas/Dir/scala/data/week4/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$$anonfun$dfSchema$1.class
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> /home/thomas/Dir/scala/data/week4/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$$anonfun$timeusage$TimeUsage$$isColumnGroup$1$1.class
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> /home/thomas/Dir/scala/data/week4/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$$typecreator1$1.class
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> /home/thomas/Dir/scala/data/week4/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$.class
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> /home/thomas/Dir/scala/data/week4/timeusage/target/scala-2.11/classes/timeusage/TimeUsage.class
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> /home/thomas/Dir/scala/data/week4/timeusage/target/scala-2.11/classes/timeusage/TimeUsageRow$.class
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> /home/thomas/Dir/scala/data/week4/timeusage/target/scala-2.11/classes/timeusage/TimeUsageRow.class
+binary dependencies:
+6 items
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> /home/thomas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.11/2.1.0/spark-catalyst_2.11-2.1.0.jar
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> /home/thomas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.1.0/spark-core_2.11-2.1.0.jar
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> /home/thomas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.1.0/spark-sql_2.11-2.1.0.jar
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> /home/thomas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> /home/thomas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.12/scala-reflect-2.11.12.jar
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+20 items
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> timeusage.TimeUsage
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> timeusage.TimeUsage$
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> timeusage.TimeUsage$$anonfun$1
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> timeusage.TimeUsage$$anonfun$2
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> timeusage.TimeUsage$$anonfun$3
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> timeusage.TimeUsage$$anonfun$4
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> timeusage.TimeUsage$$anonfun$5
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> timeusage.TimeUsage$$anonfun$6
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> timeusage.TimeUsage$$anonfun$7
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> timeusage.TimeUsage$$anonfun$classifiedColumns$1
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> timeusage.TimeUsage$$anonfun$classifiedColumns$2
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> timeusage.TimeUsage$$anonfun$classifiedColumns$3
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> timeusage.TimeUsage$$anonfun$classifiedColumns$4
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> timeusage.TimeUsage$$anonfun$classifiedColumns$5
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> timeusage.TimeUsage$$anonfun$classifiedColumns$6
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> timeusage.TimeUsage$$anonfun$dfSchema$1
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> timeusage.TimeUsage$$anonfun$timeusage$TimeUsage$$isColumnGroup$1$1
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> timeusage.TimeUsage$$typecreator1$1
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> timeusage.TimeUsageRow
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> timeusage.TimeUsageRow$
+used names:
+242 items
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> $
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> $m
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> $m$untyped
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> $typecreator1
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> $u
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> &&
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> +
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> ->
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> /
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> ::
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> <
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> <=
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> <init>
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> <repeated>
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> ==
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> ===
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> >=
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> ?0
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> ???
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> A
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> A1
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> AbstractFunction6
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Any
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> AnyRef
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Array
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> ArrayOps
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> ArrowAssoc
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> B
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Boolean
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Builder
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> CanBuildFrom
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Class
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> ClassLoader
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> ClassSymbol
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> ClassTag
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Col
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Coll
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Column
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> ColumnName
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> DataFrame
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> DataType
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Dataset
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Double
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> DoubleType
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Encoder
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Function1
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Function2
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> IndexOutOfBoundsException
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Int
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Iterator
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> JavaUniverse
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> List
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Map
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> MatchError
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Metadata
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Mirror
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> None
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Nothing
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Object
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Path
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Paths
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Predef
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Product
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> RDD
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> RelationalGroupedDataset
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Row
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> ScalaRunTime
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Seq
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Serializable
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Singleton
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Some
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> SparkContext
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> SparkSession
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Statics
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> String
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> StringContext
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> StringOps
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> StringToColumn
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> StringType
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> StructField
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> StructType
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> T
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> T0
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> T1
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> T2
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> T3
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> T4
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> T5
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> T6
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> That
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> TimeUsage
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> TimeUsageRow
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Tuple2
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Tuple3
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Tuple6
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Type
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> TypeCreator
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> TypeSymbol
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> TypeTag
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> U
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> URI
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> URL
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Unit
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> Universe
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> _$7
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> _1
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> _2
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> _3
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> _toString
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> acc
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> activities
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> age
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> ageProjection
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> agg
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> anyHash
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> apache
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> appName
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> apply
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> as
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> asInstanceOf
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> asType
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> augmentString
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> avg
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> builder
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> canBuildFrom
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> classifiedColumns
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> colName
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> columnNames
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> columns
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> config
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> createDataFrame
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> createOrReplaceTempView
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> data
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> dataFrame
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> df
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> dfSchema
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> doubleHash
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> drop
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> eq
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> expressions
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> file
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> filter
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> finalDf
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> finalizeHash
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> first
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> foldLeft
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> fromSeq
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> fsPath
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> functions
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> get
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> getClass
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> getClassLoader
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> getOrCreate
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> getResource
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> group
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> groupBy
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> head
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> headerColumns
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> i
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> immutable
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> implicits
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> initDf
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> isColumnGroup
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> isInstanceOf
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> it
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> java
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> line
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> map
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> mapPartitionsWithIndex
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> materializeClassTag
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> materializeTypeTag
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> mix
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> name
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> ne
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> newProductEncoder
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> nio
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> orderBy
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> org
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> other
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> otherColumns
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> otherProjection
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> otherwise
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> package
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> primaryNeeds
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> primaryNeedsColumns
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> primaryNeedsProjection
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> rdd
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> read
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> reduce
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> refArrayOps
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> reflect
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> resource
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> round
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> row
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> runtime
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> runtimeMirror
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> s
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> scala
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> scalalang
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> schema
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> select
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> sex
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> sexProjection
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> show
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> spark
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> sparkContext
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> split
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> sql
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> startsWith
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> staticClass
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> summaryDf
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> summed
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> tail
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> textFile
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> timeUsageByLifePeriod
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> timeUsageGrouped
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> timeUsageGroupedSqlQuery
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> timeUsageSummary
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> timeUsageSummaryDf
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> timeusage
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> to
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> toDouble
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> toString
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> toTypeConstructor
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> toURI
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> typed
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> typedProductIterator
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> types
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> unary_!
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> unchecked
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> universe
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> v
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> values
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> viewName
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> when
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> where
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> work
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> workColumns
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> workProjection
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> working
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> workingStatusProjection
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> ||
+product stamps:
+20 items
+/home/thomas/Dir/scala/data/week4/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$$anonfun$1.class -> lastModified(1551715259000)
+/home/thomas/Dir/scala/data/week4/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$$anonfun$2.class -> lastModified(1551715259000)
+/home/thomas/Dir/scala/data/week4/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$$anonfun$3.class -> lastModified(1551715259000)
+/home/thomas/Dir/scala/data/week4/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$$anonfun$4.class -> lastModified(1551715259000)
+/home/thomas/Dir/scala/data/week4/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$$anonfun$5.class -> lastModified(1551715259000)
+/home/thomas/Dir/scala/data/week4/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$$anonfun$6.class -> lastModified(1551715259000)
+/home/thomas/Dir/scala/data/week4/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$$anonfun$7.class -> lastModified(1551715259000)
+/home/thomas/Dir/scala/data/week4/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$$anonfun$classifiedColumns$1.class -> lastModified(1551715259000)
+/home/thomas/Dir/scala/data/week4/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$$anonfun$classifiedColumns$2.class -> lastModified(1551715259000)
+/home/thomas/Dir/scala/data/week4/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$$anonfun$classifiedColumns$3.class -> lastModified(1551715259000)
+/home/thomas/Dir/scala/data/week4/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$$anonfun$classifiedColumns$4.class -> lastModified(1551715259000)
+/home/thomas/Dir/scala/data/week4/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$$anonfun$classifiedColumns$5.class -> lastModified(1551715259000)
+/home/thomas/Dir/scala/data/week4/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$$anonfun$classifiedColumns$6.class -> lastModified(1551715259000)
+/home/thomas/Dir/scala/data/week4/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$$anonfun$dfSchema$1.class -> lastModified(1551715259000)
+/home/thomas/Dir/scala/data/week4/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$$anonfun$timeusage$TimeUsage$$isColumnGroup$1$1.class -> lastModified(1551715259000)
+/home/thomas/Dir/scala/data/week4/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$$typecreator1$1.class -> lastModified(1551715259000)
+/home/thomas/Dir/scala/data/week4/timeusage/target/scala-2.11/classes/timeusage/TimeUsage$.class -> lastModified(1551715259000)
+/home/thomas/Dir/scala/data/week4/timeusage/target/scala-2.11/classes/timeusage/TimeUsage.class -> lastModified(1551715258000)
+/home/thomas/Dir/scala/data/week4/timeusage/target/scala-2.11/classes/timeusage/TimeUsageRow$.class -> lastModified(1551715259000)
+/home/thomas/Dir/scala/data/week4/timeusage/target/scala-2.11/classes/timeusage/TimeUsageRow.class -> lastModified(1551715259000)
+source stamps:
+1 items
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> hash(4dd2380933fcf83e57592dff0e3723e3c4d2f2d0)
+binary stamps:
+6 items
+/home/thomas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.11/2.1.0/spark-catalyst_2.11-2.1.0.jar -> lastModified(1481872148000)
+/home/thomas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.1.0/spark-core_2.11-2.1.0.jar -> lastModified(1481871925000)
+/home/thomas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.1.0/spark-sql_2.11-2.1.0.jar -> lastModified(1481872304000)
+/home/thomas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar -> lastModified(1509673049000)
+/home/thomas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.12/scala-reflect-2.11.12.jar -> lastModified(1509673056000)
+/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar -> lastModified(1547499720000)
+class names:
+6 items
+/home/thomas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.11/2.1.0/spark-catalyst_2.11-2.1.0.jar -> org.apache.spark.sql.types.Metadata
+/home/thomas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.1.0/spark-core_2.11-2.1.0.jar -> org.apache.spark.SparkContext
+/home/thomas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.1.0/spark-sql_2.11-2.1.0.jar -> org.apache.spark.sql.RelationalGroupedDataset
+/home/thomas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar -> scala.runtime.AbstractFunction6
+/home/thomas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.12/scala-reflect-2.11.12.jar -> scala.reflect.api.TypeCreator
+/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+1 items
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw6dXyrgAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAA3c3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwKZR39HQABm5vdGlmeXNxAH4ADCVVLqd0AARyZWFkc3EAfgAMjoGnonQAB3dvcmtpbmdzcQB+AAwevaWgdAAEd2FpdHNxAH4ADLOh6N90AA5jb3B5JGRlZmF1bHQkMnNxAH4ADGCE0Et0AA0kYXNJbnN0YW5jZU9mc3EAfgAM28hZ6HQAFXRpbWVVc2FnZUdyb3VwZWRUeXBlZHNxAH4ADAfq4zB0AA5jb3B5JGRlZmF1bHQkNXNxAH4ADDoT63d0AAxUaW1lVXNhZ2VSb3dzcQB+AAzjzwvKdAAMcHJvZHVjdEFyaXR5c3EAfgAMpRm+7XQABmVxdWFsc3NxAH4ADGR2NPh0AAlUaW1lVXNhZ2VzcQB+AAzPBWKMdAAMYXNJbnN0YW5jZU9mc3EAfgAMyM78oHQAE3RpbWVVc2FnZUdyb3VwZWRTcWxzcQB+AAxltjLVdAAMc3luY2hyb25pemVkc3EAfgAMVtYRzHQADSRpc0luc3RhbmNlT2ZzcQB+AAwg9rr+dAAGZnNQYXRoc3EAfgAMHdl//HQACGNhbkVxdWFsc3EAfgAMA8Gl03QAEHRpbWVVc2FnZVN1bW1hcnlzcQB+AAw36CFYdAADcm93c3EAfgAMkMtr/HQAEWNsYXNzaWZpZWRDb2x1bW5zc3EAfgAMkAbMBnQADmNvcHkkZGVmYXVsdCQ0c3EAfgAM6NRtAHQABG1haW5zcQB+AAyn0FbudAANcHJvZHVjdFByZWZpeHNxAH4ADDngaN50AANhZ2VzcQB+AAz7pbPGdAAEd29ya3NxAH4ADBWEmu50AAlub3RpZnlBbGxzcQB+AAz0JYxNdAAVdGltZVVzYWdlQnlMaWZlUGVyaW9kc3EAfgAMMzEVUXQAEHRpbWVVc2FnZUdyb3VwZWRzcQB+AAx9it7tdAADc2V4c3EAfgAMqyl+rXQADGlzSW5zdGFuY2VPZnNxAH4ADO4ca9R0AAY8aW5pdD5zcQB+AAyA/0NfdAAFc3BhcmtzcQB+AAzlnyuUdAACPT1zcQB+AAw65YLadAAFY2xvbmVzcQB+AAxYJbpddAAYdGltZVVzYWdlR3JvdXBlZFNxbFF1ZXJ5c3EAfgAMcCV92nQACGRmU2NoZW1hc3EAfgAMmrx/lXQABiRpbml0JHNxAH4ADF3qxJ90ABV0aW1lVXNhZ2VTdW1tYXJ5VHlwZWRzcQB+AAyZylxudAAOY29weSRkZWZhdWx0JDNzcQB+AAw8PmcddAAEY29weXNxAH4ADIk06910AAh0b1N0cmluZ3NxAH4ADIWCzrh0AAxwcmltYXJ5TmVlZHNzcQB+AAyhfpX8dAACIT1zcQB+AAyXrZYTdAAIZ2V0Q2xhc3NzcQB+AAwufINUdAAOY29weSRkZWZhdWx0JDFzcQB+AAzT3BnsdAAOY29weSRkZWZhdWx0JDZzcQB+AAz1wZzXdAACbmVzcQB+AAybwt8SdAACZXFzcQB+AAxLHOcJdAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgAMkLDSmHQABW90aGVyc3EAfgAM07R1SnQAAiMjc3EAfgAMy4H1LHQACGZpbmFsaXplc3EAfgAMXBN6anQADnByb2R1Y3RFbGVtZW50c3EAfgAMZGHy6nQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAnNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AhXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAE3RpbWV1c2FnZS5UaW1lVXNhZ2V1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AJ1zcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AhUwACWluaGVyaXRlZHEAfgCFTAAHcGFyZW50c3EAfgCFeHEAfgCic3EAfgCddXEAfgCAAAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgCGcQB+AI91cQB+AJAAAAAAc3EAfgCSAHEAfgA7dXEAfgCVAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AKF0AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgChc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgC9dXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4AqnhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AmHQABVBsYWludAAEYXJnc3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4AsVsADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AoXNxAH4AsHQABUFycmF5cQB+ALZ1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4AsHQABlN0cmluZ3NxAH4AtHNxAH4At3VxAH4AugAAAANzcQB+ALx0AARqYXZhc3EAfgC8dAAEbGFuZ3EAfgDBc3EAfgCddXEAfgCAAAAAAHNxAH4AnXVxAH4A1QAAAAJzcQB+ALB0AAZPYmplY3RxAH4A2XNxAH4AsHQAA0FueXEAfgC2c3EAfgCCcQB+AI91cQB+AJAAAAAAc3EAfgCSAHQAFnRpbWV1c2FnZS5UaW1lVXNhZ2VSb3d1cQB+AJUAAAAAfnEAfgCXdAAIQ2xhc3NEZWZ1cQB+AJsAAAAAc3EAfgCdcQB+AKNzcQB+AJ1zcQB+AKVzcQB+AJ11cQB+AIAAAAAAc3EAfgCddXEAfgCAAAAAAHNxAH4AnXVxAH4A1QAAAAZzcQB+ALB0AAxTZXJpYWxpemFibGVzcQB+ALRzcQB+ALd1cQB+ALoAAAACc3EAfgC8cQB+AL9xAH4AwXNxAH4AsHEAfgD6c3EAfgC0c3EAfgC3dXEAfgC6AAAAA3NxAH4AvHEAfgDdc3EAfgC8dAACaW9xAH4AwXNxAH4AsHQAB1Byb2R1Y3RxAH4A+3NxAH4AsHQABkVxdWFsc3EAfgD7c3EAfgCwcQB+AOVzcQB+ALRzcQB+ALd1cQB+ALoAAAADc3EAfgC8cQB+AN1zcQB+ALxxAH4A33EAfgDBc3EAfgCwcQB+AOdxAH4A+3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQACXRpbWV1c2FnZXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABaUlvxQl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABFL2hvbWUvdGhvbWFzL0Rpci9zY2FsYS9kYXRhL3dlZWs0L3RpbWV1c2FnZS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUTdI4CTP8+D5XWS3/Djcj48TS8tA=
+external apis:
+0 items
+source infos:
+1 items
+/home/thomas/Dir/scala/data/week4/timeusage/src/main/scala/timeusage/TimeUsage.scala -> 
+AAAAAAAAAAA=
+compilations:
+8 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABaUZ+tiF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9ob21lL3Rob21hcy9EaXIvc2NhbGEvZGF0YS93ZWVrNC90aW1ldXNhZ2UvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABaUkD5pF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9ob21lL3Rob21hcy9EaXIvc2NhbGEvZGF0YS93ZWVrNC90aW1ldXNhZ2UvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABaUlK0WF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9ob21lL3Rob21hcy9EaXIvc2NhbGEvZGF0YS93ZWVrNC90aW1ldXNhZ2UvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+3 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABaUlMCPt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9ob21lL3Rob21hcy9EaXIvc2NhbGEvZGF0YS93ZWVrNC90aW1ldXNhZ2UvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+4 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABaUlRLhh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9ob21lL3Rob21hcy9EaXIvc2NhbGEvZGF0YS93ZWVrNC90aW1ldXNhZ2UvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+5 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABaUlR9qx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9ob21lL3Rob21hcy9EaXIvc2NhbGEvZGF0YS93ZWVrNC90aW1ldXNhZ2UvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+6 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABaUlmMOZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9ob21lL3Rob21hcy9EaXIvc2NhbGEvZGF0YS93ZWVrNC90aW1ldXNhZ2UvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+7 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABaUlvxQl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9ob21lL3Rob21hcy9EaXIvc2NhbGEvZGF0YS93ZWVrNC90aW1ldXNhZ2UvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
