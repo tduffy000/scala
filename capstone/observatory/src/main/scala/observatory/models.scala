@@ -1,5 +1,7 @@
 package observatory
 
+import java.time.LocalDate
+
 /**
   * Class for the row records of temperature data points.
   * @param id       Identifier for station (STN-WBAN) where recording occurred; primary key.
@@ -23,10 +25,17 @@ case class StationRecord(id: String, lat: Double, lon: Double)
 case class CombinedRecord(id: String, lat: Double, lon: Double,
                           year: Int, month: Int, day: Int, temperature: Double)
 
+/**
+  *
+  */
 case class StationTempRecord(date: Date, location: Location, temperature: Double)
 
-// need local date conversion
-case class Date(year: Int, month: Int, day: Int)
+/**
+  *
+  */
+case class Date(year: Int, month: Int, day: Int) {
+  def toLocalDate = LocalDate.of(year, month, day)
+}
 
 /**
   * Introduced in Week 1. Represents a location on the globe.

@@ -22,9 +22,6 @@ object Extraction {
 
   import spark.implicits._
 
-  // does this need to use getResourceAsStream?
-  // also why is it pointing to classes dir and not the resources folder?
-  // do i have these things in my dir twice?
   /**
     * @param p  Absolute path of the source datafile.
     * @return   Pathway to source datafile formatted properly.
@@ -32,7 +29,7 @@ object Extraction {
   def toPath( p: String ): String =
     return getClass.getResource( p ).getPath
 
-  // right now all the id's are NULL
+    // id's don't show XXX-XXX the dash?
   /**
     * @param stationsFilePath   Pathway to .csv containing raw station data.
     * @return Dataset containing rows of StationRecord objects.
@@ -46,7 +43,8 @@ object Extraction {
           $"_c2".cast(DoubleType).alias("lat"),
           $"_c3".cast(DoubleType).alias("lon")
       )
-      .where($"_c2".between(-90, 90) && $"_c3".between(-180, 180))  // why would you exclude 0.0 lat & lon?
+      .where($"_c2".between(-90, 90) && $"_c3".between(-180, 180)
+             && $"_c2".isNotNull && $"_c3".isNotNull)
       .as[StationRecord]
   }
 
@@ -80,7 +78,7 @@ object Extraction {
     stations
       .join(temps, "id")
       .as[CombinedRecord]
-      .map( r => (Date(r.year, r.month, r.day), Location(r.lat, r.lon), r.temperature) )  // do you need to keep the id's here?
+      .map( r => (Date(r.year, r.month, r.day), Location(r.lat, r.lon), r.temperature) )
       .toDF("date", "location", "temperature")
       .as[StationTempRecord]
   }
@@ -91,15 +89,15 @@ object Extraction {
     * @param temperaturesFile Path of the temperatures resource file to use (e.g. "/1975.csv")
     * @return A sequence containing triplets (date, location, temperature)
     */
-
-  /* This method should return the list of all the temperature records converted in degrees Celsius
-   * along with their date and location (ignore data coming from stations that have no GPS coordinates).
-   * You should not round the temperature values. The file paths are resource paths, so they must be absolute
-   * locations in your classpath (so that you can read them with getResourceAsStream). For instance, the path
-   * for the resource file 1975.csv is /1975.csv.
-   */
   def locateTemperatures(year: Year, stationsFile: String, temperaturesFile: String): Iterable[(LocalDate, Location, Temperature)] = {
-    ???
+    val joinedRecords = joinStationTemperatures( getStationsFromPath(stationsFile), getTemperaturesFromPath(temperaturesFile, year) )
+
+    joinedRecords.collect()
+     .par
+     .map(
+       jr => (jr.date.toLocalDate, jr.location, jr.temperature)
+     )
+     .seq
   }
 
   /**
@@ -107,7 +105,15 @@ object Extraction {
     * @return A sequence containing, for each location, the average temperature over the year.
     */
   def locationYearlyAverageRecords(records: Iterable[(LocalDate, Location, Temperature)]): Iterable[(Location, Temperature)] = {
-    ???
+    records
+      .par
+      .groupBy(_._2)
+      .mapValues(
+        loc => loc.foldLeft(0.0)(
+          (acc, t) => acc + t._3
+        ) / loc.size
+      )
+      .seq
   }
 
 }

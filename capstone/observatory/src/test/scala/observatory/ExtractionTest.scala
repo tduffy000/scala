@@ -18,8 +18,8 @@ trait ExtractionTest extends FunSuite {
   lazy val temperatures: Dataset[TemperatureRecord] = Extraction.getTemperaturesFromPath(temperaturePath, year).cache
   lazy val stationTemps: Dataset[StationTempRecord] = Extraction.joinStationTemperatures(stations, temperatures).cache
 
-  // lazy val locateTemperatures
-  // lazy val locateAverage
+  lazy val locationTemperatures = Extraction.locateTemperatures(year, stationPath, temperaturePath)
+  lazy val locationAverage = Extraction.locationYearlyAverageRecords(locationTemperatures)
 
   test("stations import") {
     if( verbose ) stations.show()
@@ -33,6 +33,14 @@ trait ExtractionTest extends FunSuite {
 
   test("join stations & temperatures") {
     if( verbose ) stationTemps.show()
+    // assertions
+  }
+
+  test("group by location") {
+    // assertions
+  }
+
+  test("average temperatures") {
     // assertions
   }
 
