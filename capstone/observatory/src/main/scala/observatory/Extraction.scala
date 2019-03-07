@@ -20,16 +20,17 @@ object Extraction {
         .config("spark.master", "local")
         .getOrCreate()
 
+  // suppress all [INFO] blocks printed on CL
+  spark.sparkContext.setLogLevel("WARN")
+
   import spark.implicits._
 
   /**
     * @param p  Absolute path of the source datafile.
     * @return   Pathway to source datafile formatted properly.
     */
-  def toPath( p: String ): String =
-    return getClass.getResource( p ).getPath
+  def toPath( p: String ): String = getClass.getResource( p ).getPath
 
-    // id's don't show XXX-XXX the dash?
   /**
     * @param stationsFilePath   Pathway to .csv containing raw station data.
     * @return Dataset containing rows of StationRecord objects.
@@ -39,16 +40,15 @@ object Extraction {
       .read
       .csv( toPath(stationsFilePath) )
       .select(
-          concat_ws("-", coalesce($"_c0", lit("")), $"_c1").alias("id"), // need coalesce?
+          concat_ws("-", coalesce($"_c0", lit("")), $"_c1").alias("id"),
           $"_c2".cast(DoubleType).alias("lat"),
           $"_c3".cast(DoubleType).alias("lon")
       )
-      .where($"_c2".between(-90, 90) && $"_c3".between(-180, 180)
+      .where($"_c2" =!= 0.0 && $"_c3" =!= 0.0
              && $"_c2".isNotNull && $"_c3".isNotNull)
       .as[StationRecord]
   }
 
-  // id's don't show XXX-XXX the dash?
   /**
     * @param  temperaturesFilePath  Pathway to .csv containing raw temperature data.
     * @param  year                  Numerical year of data.
@@ -92,7 +92,8 @@ object Extraction {
   def locateTemperatures(year: Year, stationsFile: String, temperaturesFile: String): Iterable[(LocalDate, Location, Temperature)] = {
     val joinedRecords = joinStationTemperatures( getStationsFromPath(stationsFile), getTemperaturesFromPath(temperaturesFile, year) )
 
-    joinedRecords.collect()
+    joinedRecords
+     .collect()
      .par
      .map(
        jr => (jr.date.toLocalDate, jr.location, jr.temperature)

@@ -7,7 +7,7 @@ import java.time.LocalDate
   * @param id       Identifier for station (STN-WBAN) where recording occurred; primary key.
   * @param month    Numerical month of recording.
   * @param day      Numerical day of recording.
-  * @param temp     Decimal temperature recording (in Fahrenheit).
+  * @param temp     Decimal temperature recording (in Celsius).
   */
 case class TemperatureRecord(id: String, month: Int, day: Int, temperature: Double)
 
@@ -20,18 +20,32 @@ case class TemperatureRecord(id: String, month: Int, day: Int, temperature: Doub
 case class StationRecord(id: String, lat: Double, lon: Double)
 
 /**
-  *
+  * Class for the combined record of fields from the stations & temperature records.
+  * @param id           Identifier for station (STN-WBAN) where recording occurred; primary key.
+  * @param lat          latitude of station in degrees, -90 ≤ lat ≤ 90
+  * @param lon          longtitude of station in degrees, -180 ≤ lon ≤ 180
+  * @param year         Numerical year of recording.
+  * @param month        Numerical month of recording.
+  * @param day          Numerical day of recording.
+  * @param temperature  Decimal temperature recording (in Celsius)
   */
 case class CombinedRecord(id: String, lat: Double, lon: Double,
                           year: Int, month: Int, day: Int, temperature: Double)
 
 /**
+  * Class for the final records for station-specific temperature readings.
+  * @param date         Date of recording using Date class.
+  * @param location     Location of station for record using Location class.
+  * @param temperature  Decimal temperature recording (in Celsius)
   *
   */
 case class StationTempRecord(date: Date, location: Location, temperature: Double)
 
 /**
-  *
+  * Class for the Date of the observation.
+  * @param year   Numerical year of recording.
+  * @param month  Numerical month of recording.
+  * @param day    Numerical day of recording.
   */
 case class Date(year: Int, month: Int, day: Int) {
   def toLocalDate = LocalDate.of(year, month, day)
