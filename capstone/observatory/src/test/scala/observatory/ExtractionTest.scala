@@ -26,20 +26,19 @@ trait ExtractionTest extends FunSuite {
     if( verbose ) stations.show()
     assert( stations.count() == 27708, "total rows = 27,708" )
     assert( stations.filter( (s: StationRecord) => s.id == "010010" ).count === 1, "010010 exists" )
-    // check specific random station
-    assert( stations.filter( (s: StationRecord) => s.id == "011134").count === 0, " 011134 does not exist")
-    assert( stations.agg(min("lat"), max("lat")).head === Row(-89.0, 89.37), "min/max latitude")
-    assert( stations.agg(min("lon"), max("lon")).head === Row(-179.983, 179.75), "min/max longitude")
+    assert( stations.filter( (s: StationRecord) => s.id == "011100" ).select("lat", "lon").head === Row(66.0, 11.683), "011100 lat/lon test" )
+    assert( stations.filter( (s: StationRecord) => s.id == "011134" ).count === 0, " 011134 does not exist" )
+    assert( stations.agg(min("lat"), max("lat")).head === Row(-89.0, 89.37), "min/max latitude" )
+    assert( stations.agg(min("lon"), max("lon")).head === Row(-179.983, 179.75), "min/max longitude" )
     }
 
-  /*
   test("temperatures import") {
     if( verbose ) temperatures.show()
-    // n rows = 2616141
-    // avg temperature (C) = 11.827956138449727
-
-
+    assert( temperatures.count() == 2616141, "total rows = 2,616,141")
+    // assert( temperatures.agg(avg("temperature")).head === Row(11.827956138449727), "avg. temperature (C)")
+    // temperature range
   }
+  /*
   test("join stations & temperatures") {
     if( verbose ) stationTemps.show()
 
