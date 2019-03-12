@@ -1,6 +1,8 @@
 package observatory
 
 import java.time.LocalDate
+import scala.math._
+import com.sksamuel.scrimage.RGBColor
 
 /**
   * Class for the row records of temperature data points.
@@ -51,12 +53,33 @@ case class Date(year: Int, month: Int, day: Int) {
   def toLocalDate = LocalDate.of(year, month, day)
 }
 
+case  class Point(theta: Double, lambda: Double) {
+  lazy val location:Location = Location(toDegrees(theta), toDegrees(lambda))
+
+  def haversineEarthDistace(other: Point): Double = {
+    var rad = 6372.8 // mean earth radius (km)
+    rad * greatCircleDistance(other) * 1000
+  }
+
+  def greatCircleDistance(other: Point): Double = {
+    val deltaTheta = abs(other.theta - theta)
+    val deltaLambda = abs(other.lambda - lambda)
+
+    val a = pow(sin(deltaTheta / 2), 2) + cos(theta) *
+            cos(other.theta) * pow(sin(deltaLambda / 2), 2)
+    2 * atan2(sqrt(a), sqrt(1-a))
+  }
+}
+
 /**
   * Introduced in Week 1. Represents a location on the globe.
-  * @param lat Degrees of latitude, -90 ≤ lat ≤ 90
+  * @param lat Degrees of latitude, -90 ≤ lat ≤ 90    val point:
+
   * @param lon Degrees of longitude, -180 ≤ lon ≤ 180
   */
-case class Location(lat: Double, lon: Double)
+case class Location(lat: Double, lon: Double) {
+  lazy val asPoint: Point = Point(toRadians(lat), toRadians(lon))
+}
 
 /**
   * Introduced in Week 3. Represents a tiled web map tile.
@@ -89,4 +112,6 @@ case class CellPoint(x: Double, y: Double)
   * @param green Level of green, 0 ≤ green ≤ 255
   * @param blue Level of blue, 0 ≤ blue ≤ 255
   */
-case class Color(red: Int, green: Int, blue: Int)
+case class Color(red: Int, green: Int, blue: Int) {
+  def asPixel(alpha: Int = 255) = RGBColor(red, green, blue, alpha).toPixel
+}

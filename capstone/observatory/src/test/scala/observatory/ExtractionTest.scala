@@ -1,7 +1,7 @@
 package observatory
 
 import org.apache.spark.sql.Dataset
-import org.apache.spark.sql.functions.{min,max}
+import org.apache.spark.sql.functions.{min,max,avg}
 import org.junit.runner.RunWith
 import org.scalatest.FunSuite
 import org.scalatest.junit.JUnitRunner
@@ -35,8 +35,8 @@ trait ExtractionTest extends FunSuite {
   test("temperatures import") {
     if( verbose ) temperatures.show()
     assert( temperatures.count() == 2616141, "total rows = 2,616,141")
-    // assert( temperatures.agg(avg("temperature")).head === Row(11.827956138449727), "avg. temperature (C)")
-    // temperature range
+    val tempAvg = temperatures.agg(avg("temperature")).head.getDouble(0)
+    assert( Math.abs(tempAvg - 11.827956138449727) < .0001 )
   }
   /*
   test("join stations & temperatures") {

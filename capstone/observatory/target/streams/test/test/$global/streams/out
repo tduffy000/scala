@@ -1,7 +1,7 @@
-[0m[[0mdebug[0m] [0mRunning TaskDef(observatory.CapstoneSuite, org.scalatest.tools.Framework$$anon$1@730f0f44, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(observatory.CapstoneSuite, org.scalatest.tools.Framework$$anon$1@11ee1c0a, false, [SuiteSelector])[0m
 [0m[[0mdebug[0m] [0mSummary for ScalaCheck not available.[0m
 [0m[[0minfo[0m] [0mScalaTest[0m
-[0m[[0minfo[0m] [0m[36mRun completed in 12 seconds, 83 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 13 seconds, 98 milliseconds.[0m[0m
 [0m[[0minfo[0m] [0m[36mTotal number of tests run: 2[0m[0m
 [0m[[0minfo[0m] [0m[36mSuites: completed 1, aborted 0[0m[0m
 [0m[[0minfo[0m] [0m[36mTests: succeeded 2, failed 0, canceled 0, ignored 0, pending 0[0m[0m
