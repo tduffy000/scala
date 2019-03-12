@@ -53,14 +53,22 @@ case class Date(year: Int, month: Int, day: Int) {
   def toLocalDate = LocalDate.of(year, month, day)
 }
 
-case  class Point(theta: Double, lambda: Double) {
-  lazy val location:Location = Location(toDegrees(theta), toDegrees(lambda))
+/**
+  * Class to represent Locations as coordinates on a chord to obtain accurate
+  * distance between them.
+  * See https://en.wikipedia.org/wiki/Great-circle_distance
+  * See https://en.wikipedia.org/wiki/Haversine_formula
+  * @param theta  Measure of angle along z plane
+  * @param lambda Measure of angle along x plane
+  */
+case class Point(theta: Double, lambda: Double) {
+  lazy val location: Location = Location(toDegrees(theta), toDegrees(lambda))
+  val EarthRadius = 6372.8
 
-  def haversineEarthDistace(other: Point): Double = {
-    var rad = 6372.8 // mean earth radius (km)
-    rad * greatCircleDistance(other) * 1000
-  }
-
+  /**
+    * @param other  Point b (endpoint) for distance
+    * @return Distance between a (this) & b (other) in radians
+    */
   def greatCircleDistance(other: Point): Double = {
     val deltaTheta = abs(other.theta - theta)
     val deltaLambda = abs(other.lambda - lambda)
@@ -69,12 +77,19 @@ case  class Point(theta: Double, lambda: Double) {
             cos(other.theta) * pow(sin(deltaLambda / 2), 2)
     2 * atan2(sqrt(a), sqrt(1-a))
   }
+
+  /**
+    * @param other Point b (endpoint) for distance
+    * @return Distance between a (this) & b (other) in meters
+    */
+  def haversineEarthDistace(other: Point): Double =
+    EarthRadius * greatCircleDistance(other) * 1000
+
 }
 
 /**
   * Introduced in Week 1. Represents a location on the globe.
   * @param lat Degrees of latitude, -90 ≤ lat ≤ 90    val point:
-
   * @param lon Degrees of longitude, -180 ≤ lon ≤ 180
   */
 case class Location(lat: Double, lon: Double) {
@@ -113,5 +128,10 @@ case class CellPoint(x: Double, y: Double)
   * @param blue Level of blue, 0 ≤ blue ≤ 255
   */
 case class Color(red: Int, green: Int, blue: Int) {
+
+  /**
+    * @param alpha Shading of particular pixel in range [0, 256)
+    * @return RGB representation of pixel (for image)
+    */
   def asPixel(alpha: Int = 255) = RGBColor(red, green, blue, alpha).toPixel
 }

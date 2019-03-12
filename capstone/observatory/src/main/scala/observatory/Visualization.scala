@@ -8,7 +8,15 @@ import scala.math._
   */
 object Visualization {
 
+  val EarthRadius = 6372.8  // avg. radius of Earth in km
+
+  /**
+    * @param pointA Location a, first endpoint of line
+    * @param pointB Location b, second endpoint of line
+    * @return Distance between pointA & pointB (km)
+    */
   def distance( pointA: Location, pointB: Location ): Double = {
+
     val Location(latA, lonA) = pointA
     val Location(latB, lonB) = pointB
     val latDist = toRadians(latA - latB)
@@ -17,16 +25,25 @@ object Visualization {
     val a = pow(sin(latDist / 2), 2) + cos(toRadians(latA)) * cos(toRadians(latB)) *
             pow(sin(lonDist / 2), 2)
 
-    // why * 6371?
-    2 * atan2(sqrt(a), sqrt(1 - a)) * 6371
+    2 * atan2(sqrt(a), sqrt(1 - a)) * EarthRadius
   }
 
+  /**
+    * @param temps
+    * @param loc
+    * @return
+    */
   def combineDistanceTemperature( temps: Iterable[(Location, Double)], loc: Location ): Iterable[(Double, Double)] = {
     temps.map{
       case (otherLoc, temp) => (loc.asPoint.haversineEarthDistace(otherLoc.asPoint), temp)
     }
   }
 
+  /**
+    * @param combinedDistTemp
+    * @param p
+    * @return
+    */
   def inverseDistanceWeighting( combinedDistTemp: Iterable[(Double, Double)], p: Int): Double = {
     val (weightedSum, invWeightedSum) = combinedDistTemp.aggregate((0.0, 0.0))(
       {
@@ -40,6 +57,12 @@ object Visualization {
     weightedSum / invWeightedSum
   }
 
+  /**
+    * @param width
+    * @param height
+    * @param (pos)
+    * @return
+    */
   def posToLocation( width: Int, height: Int )(pos: Int): Location = {
     val wFactor = 180 * 2 / width.toDouble
     val hFactor = 90 * 2 / height.toDouble
@@ -49,11 +72,26 @@ object Visualization {
     Location( 90 - (y * hFactor), (x * wFactor) - 180)
   }
 
+  /**
+    * @param a
+    * @param b
+    * @param x
+    * @param colorA
+    * @param colorB
+    * @return
+    */
   def interpolatePoint( a: Double, b: Double, x: Double )( colorA: Int, colorB: Int): Int = {
     val m = (x - a) / (b - a)
     round(colorA + m * (colorB - colorA)).toInt
   }
 
+  /**
+    * @param a
+    * @param b
+    * @param x
+    * @return
+    *
+    */
   def interpolate( a: Option[(Double, Color)], b: Option[(Double, Color)], x: Double ): Color = (a, b) match {
 
     case (Some((aVal, colorA)), Some((bVal, colorB))) => {
@@ -71,7 +109,7 @@ object Visualization {
 
   /**
     * @param temperatures Known temperatures: pairs containing a location and the temperature at this location
-    * @param location Location where to predict the temperature
+    * @param location     Location where to predict the temperature
     * @return The predicted temperature at `location`
     */
   def predictTemperature(temperatures: Iterable[(Location, Temperature)], location: Location): Temperature = {
@@ -84,7 +122,7 @@ object Visualization {
 
   /**
     * @param points Pairs containing a value and its associated color
-    * @param value The value to interpolate
+    * @param value  The value to interpolate
     * @return The color that corresponds to `value`, according to the color scale defined by `points`
     */
   def interpolateColor(points: Iterable[(Temperature, Color)], value: Temperature): Color = {
@@ -99,7 +137,7 @@ object Visualization {
 
   /**
     * @param temperatures Known temperatures
-    * @param colors Color scale
+    * @param colors       Color scale
     * @return A 360×180 image where each pixel shows the predicted temperature at its location
     */
   def visualize(temperatures: Iterable[(Location, Temperature)], colors: Iterable[(Temperature, Color)]): Image = {
