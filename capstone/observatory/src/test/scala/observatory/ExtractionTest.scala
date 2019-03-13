@@ -38,10 +38,9 @@ trait ExtractionTest extends FunSuite {
     val tempAvg = temperatures.agg(avg("temperature")).head.getDouble(0)
     assert( Math.abs(tempAvg - 11.827956138449727) < .0001 )
   }
-  /*
+
   test("join stations & temperatures") {
     if( verbose ) stationTemps.show()
-
 
   }
 
@@ -51,8 +50,8 @@ trait ExtractionTest extends FunSuite {
   }
 
   test("average temperatures") {
-    // assertions
     if( verbose ) locationAverage.take(10).foreach(println)
+
   }
-  */
+
 }
