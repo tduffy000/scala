@@ -9,8 +9,8 @@ import org.apache.spark.sql.Row
 
 trait ExtractionTest extends FunSuite {
 
-  val year = 1990
-  val verbose = true
+  val year = 1990     // year to inspect (NOTE: below tests are specific to 1990)
+  val verbose = true  // show results of each procedure
 
   val stationPath = "/stations.csv"
   val temperaturePath = s"/$year.csv"
@@ -36,7 +36,7 @@ trait ExtractionTest extends FunSuite {
     if( verbose ) temperatures.show()
     assert( temperatures.count() == 2616141, "total rows = 2,616,141")
     val tempAvg = temperatures.agg(avg("temperature")).head.getDouble(0)
-    assert( Math.abs(tempAvg - 11.827956138449727) < .0001 )
+    assert( Math.abs(tempAvg - 11.827956138449727) < .0001 , "avg. temp ~= 11.828")
   }
 
   test("join stations & temperatures") {
