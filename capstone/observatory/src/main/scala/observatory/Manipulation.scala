@@ -18,7 +18,7 @@ object Manipulation {
       } yield GridLocation(lat, lon) -> Visualization.predictTemperature(temperatures, Location(lat, lon))
     }.toMap
 
-    g => grid(GridLocation(g.lat, g.lon))
+    g => grid(g)
   }
 
   /**
@@ -36,7 +36,7 @@ object Manipulation {
 
   /**
     * @param temperatures Known temperatures
-    * @param normals A grid containing the “normal” temperatures
+    * @param normals      A grid containing the “normal” temperatures
     * @return A grid containing the deviations compared to the normal temperatures
     */
   def deviation(temperatures: Iterable[(Location, Double)], normals: GridLocation => Temperature): GridLocation => Temperature = {
